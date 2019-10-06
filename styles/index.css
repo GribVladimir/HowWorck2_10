@@ -102,6 +102,17 @@ body{
     flex-direction:column;
     align-items:center;
 }
+.card__images{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+    border: solid 2px #3695ff;
+    border-radius: 50%;
+    margin: 0;
+    padding: 35px;
+}
 .card__text{
 	color: #5a5a5a;
 	font-family: 'Lato', sans-serif;
@@ -160,6 +171,7 @@ body{
     margin-left: 30px;
     width: 280px;
     height: 100px;
+    filter: grayscale(100%);
     align-items:center;
     opacity: 0.3;
 }
@@ -171,11 +183,13 @@ body{
 	flex-direction: row;
     align-content: center;
     align-items: baseline;
+    justify-content: space-around;
 }
 .footer_text{
 	display: flex;
 	align-items: baseline;
-	font-size: 45px;
+	font-size: 34px;
+	margin-left: 60px;
 }
 .footer_text h3{
 	font-family: 'Lato', sans-serif;
@@ -186,4 +200,7 @@ body{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	color: white;
+}
+.footer_botton{
+	display: flex;
 }
